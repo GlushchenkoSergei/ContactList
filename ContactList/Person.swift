@@ -15,7 +15,7 @@ struct Person: Hashable {
     let phone: String
     
     var fullName: String {
-        surname + name
+        surname + " " + name
     }
     
     
